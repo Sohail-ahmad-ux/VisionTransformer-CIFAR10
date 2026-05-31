@@ -1,5 +1,3 @@
-# VisionTransformer-CIFAR10
-A clean from-scratch implementation of Vision Transformer (ViT) in PyTorch for CIFAR-10 image classification. Includes patch embedding, positional encoding, transformer encoder, and training pipeline.
 # 🧠 Vision Transformer (ViT) on CIFAR-10
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -22,6 +20,21 @@ A clean from-scratch implementation of Vision Transformer (ViT) in PyTorch for C
 - ✅ Modular and well-documented code
 
 ---
+## 🧪 Model Architecture
+
+Image Size: 32×32 (CIFAR-10)
+Patch Size: 4×4
+Embedding Dimension: 128
+Depth (Layers): 4
+Attention Heads: 4
+MLP Head: Linear classifier
+
+## 📸 Sample Predictions
+
+# Example outputs from the model:
+Actual: cat        | Predicted: frog
+Actual: ship       | Predicted: ship      ✓
+Actual: automobile | Predicted: automobile ✓
 
 ## 📊 Results
 
